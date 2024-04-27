@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'League Spartan';
+    font-weight: 400;
+    src: url(fonts/LeagueSpartan-VariableFont_wght.ttf) format('truetype');
+  }
+  html {
+    background-color: black;
+  }
+  body {
+    width: 42cm;
+    height: 29.7cm;
+    background-color: white;
+  }
+}
+
