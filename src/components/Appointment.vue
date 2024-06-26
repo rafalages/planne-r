@@ -11,7 +11,9 @@ const props = defineProps({
 const cssClasses = ref({
   "col-span-7": props.type === 'full-week',
   "col-span-5": props.type === '5-days',
+  "col-span-2": props.type === '2-days',
   "row-span-2": props.duration === 'double',
+  "h-1/2": props.duration === 'half',
 })
 </script>
 
